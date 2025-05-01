@@ -27,6 +27,7 @@ public class WelcomeServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
         System.out.println("nihao");
         System.out.println("zaijian");
+        System.out.println("dev1");
         out.print("<h3>welcome to study servlet!</h3>");
         Connection conn = null;
         PreparedStatement ps = null;
