@@ -26,6 +26,7 @@ public class WelcomeServlet extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         System.out.println("nihao");
+        System.out.println("zaijian");
         out.print("<h3>welcome to study servlet!</h3>");
         Connection conn = null;
         PreparedStatement ps = null;
